@@ -1,623 +1,753 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-
-   <!--- basic page needs
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
    ================================================== -->
-   <meta charset="utf-8">
-	<title>Praveen Joseph</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+    <meta charset="utf-8" />
+    <title>Praveen Joseph</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-   <!-- mobile specific metas
+    <!-- mobile specific metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
- 	<!-- CSS
+    <!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
 
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-   <!-- favicons
+    <!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
 
-</head>
-
-<body id="top">
-
-	<!-- header 
+  <body id="top">
+    <!-- header 
    ================================================== -->
-   <header>   	
-   	<div class="row">
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+          <div class="logo">
+            <a href="index.html">KARDS</a>
+          </div>
 
-	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
-		      </div>		      
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li><a class="smoothscroll" href="#about" title="">About</a></li>
+              <li>
+                <a class="smoothscroll" href="#resume" title="">Resume</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
-
-	<!-- intro section
+    <!-- intro section
    ================================================== -->
-   <section id="intro">   
+    <section id="intro">
+      <div class="intro-overlay"></div>
 
-   	<div class="intro-overlay"></div>	
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Love To Code <i class="fa fa-heart"></i></h5>
+            <h1>I'm Praveen Joseph.</h1>
 
-   	<div class="intro-content">
-   		<div class="row">
+            <p class="intro-position">
+              <span>Python</span>
+              <span>DevOps</span>
+              <span>Cloud</span>
+            </p>
 
-   			<div class="col-twelve">
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >More About Me</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /intro-content -->
 
-	   			<h5>Love To Code <i class="fa fa-heart"></i></h5>
-	   			<h1>I'm Praveen Joseph.</h1>
+      <ul class="intro-social">
+        <li>
+          <a target="_blank" href="https://github.com/PraveenJP"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.youtube.com/user/praveen2602"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="http://in.linkedin.com/in/praveenjp"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- /intro-social -->
+    </section>
+    <!-- /intro -->
 
-	   			<p class="intro-position">
-	   				<span>Python</span>
-	   				<span>DevOps</span>
-					<span>Cloud</span>
-	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-   	<ul class="intro-social">        
-         <li><a target="_blank" href="https://github.com/PraveenJP"><i class="fa fa-github"></i></a></li>
-         <li><a target="_blank" href="https://www.youtube.com/user/praveen2602"><i class="fa fa-youtube"></i></a></li>
-         <li><a target="_blank" href="http://in.linkedin.com/in/praveenjp"><i class="fa fa-linkedin"></i></a></li>
-      </ul> <!-- /intro-social -->      	
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
+    <!-- about section
    ================================================== -->
-   <section id="about">  
+    <section id="about">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>About</h5>
+          <h1>Let me introduce myself.</h1>
 
-   	<div class="row section-intro">
-   		<div class="col-twelve">
+          <div class="intro-info">
+            <img src="images/profile-pic.jpg" alt="Profile Picture" />
 
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+            <p class="lead">
+              Developer with nearly 9+ Years of experience in Development and
+              DevOps Practice.
+            </p>
+            <p class="lead">
+              Highly experienced and skilled in Agile methodology with DevOps
+              Practice to deliver the product and excellent team player and lead
+              team as well and successful coding in project management.
+            </p>
+            <p class="lead">
+              Machine Learning & DevOps are my favorite areas I love to automate
+              and predict and still I’m learning on those areas. I have
+              specialized in Solution provider for problems and provide
+              effective alternative solutions.
+            </p>
+            <p class="lead">
+              Hand on experience in Continuous Integration and Continuous
+              Delivery. Adapt at working on multiple projects simultaneously.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /section-intro -->
 
-   			<div class="intro-info">
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Profile</h3>
+          <p>I have listed out the personal information of mine.</p>
 
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+          <ul class="info-list">
+            <li>
+              <strong>Fullname:</strong>
+              <span>Praveen Joseph</span>
+            </li>
+          </ul>
+          <!-- /info-list -->
+        </div>
 
-   				<p class="lead">Developer with nearly 9+ Years of experience in Development and DevOps Practice.</p>
-				<p class="lead">Highly experienced and skilled in Agile methodology with DevOps Practice to deliver the product and excellent team player and lead team as well and successful coding in project management.</p>
-				<p class="lead">Machine Learning & DevOps are my favorite areas I love to automate and predict and still I’m learning on those areas. I have specialized in Solution provider for problems and provide effective alternative solutions.</p>
-				<p class="lead">Hand on experience in Continuous Integration and Continuous Delivery. Adapt at working on multiple projects simultaneously.</p>				
-   			</div>   			
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <p>
+            Last 9+ years I have learned lot and
+            <b>I Love to Learn New technologies</b>I have listed some of the
+            technologies with percentage which is represent the How strong in
+            that area.
+          </p>
 
-   		</div>   		
-   	</div> <!-- /section-intro -->
+          <ul class="skill-bars">
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>Python / JavaScript </strong>
+            </li>
+            <li>
+              <div class="progress percent85"><span>85%</span></div>
+              <strong>React JS / ReactNative</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>Git / Github</strong>
+            </li>
+            <li>
+              <div class="progress percent85"><span>85%</span></div>
+              <strong>DevOps</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>Cloud Compute</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>Full Stack Development</strong>
+            </li>
+            <li>
+              <div class="progress percent85"><span>85%</span></div>
+              <strong>Mobile App Development</strong>
+            </li>
+            <li>
+              <div class="progress percent70"><span>70%</span></div>
+              <strong>Infra Administration</strong>
+            </li>
+          </ul>
+          <!-- /skill-bars -->
+        </div>
+      </div>
 
-   	<div class="row about-content">
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a
+            href="mailto:praveen.josephmasilamani@outlook.com"
+            title="Download CV"
+            class="button button-primary"
+            >Contact Me.:)</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /process-->
 
-   		<div class="col-six tab-full">
-
-   			<h3>Profile</h3>
-   			<p>I have listed out the personal information of mine.</p>
-
-   			<ul class="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Praveen Joseph</span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
-
-   		</div>
-
-   		<div class="col-six tab-full">
-
-   			<h3>Skills</h3>
-   			<p>Last 9+ years I have learned lot and <b>I Love to Learn New technologies</b>I have listed some of the technologies with percentage which is represent the How strong in that area.</p>
-
-				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>Python / JavaScript </strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>React JS / ReactNative</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>80%</span></div>
-				   	<strong>Git / Github</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>DevOps</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>80%</span></div>
-				   	<strong>Cloud Compute</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>80%</span></div>
-				   	<strong>Full Stack Development</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>Mobile App Development</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>Infra Administration</strong>
-				   </li>
-				</ul> <!-- /skill-bars -->		
-
-   		</div>
-
-   	</div>
-
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="mailto:praveen.josephmasilamani@outlook.com" title="Download CV" class="button button-primary">Contact Me.:)</a>
-   		</div>   		
-   	</div>
-
-   </section> <!-- /process-->    
-
-
-   <!-- resume Section
+    <!-- resume Section
    ================================================== -->
-	<section id="resume" class="grey-section">
+    <section id="resume" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Resume</h5>
+          <h1>More of my credentials.</h1>
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+          <p class="lead">
+            I have listed out my <b>Work Experience</b> and
+            <b>Educations details</b>
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro-->
 
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Work Experience</h2>
+        </div>
+        <!-- /resume-header -->
 
-   			<p class="lead">I have listed out my <b>Work Experience</b> and <b>Educations details</b></p>
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+              <div class="timeline-header">
+                <h3>Application Developer</h3>
+                <p>Septemper 2017 - July 2018</p>
+              </div>
 
-   	<div class="row resume-timeline">
+              <div class="timeline-content">
+                <h4>Built Strong</h4>
+                <ul>
+                  <li>
+                    Built and maintained business applications using modern web
+                    technologies like JavaScript, Python, and SQL.
+                  </li>
+                  <li>
+                    Led the migration of legacy systems to cloud infrastructure,
+                    enhancing system performance and scalability.
+                  </li>
+                  <li>
+                    Collaborated with clients to gather requirements and deliver
+                    tailored software solutions on time.
+                  </li>
+                  <li>
+                    Integrated third-party APIs to extend application
+                    functionalities, ensuring seamless interoperability.
+                  </li>
+                  <li>
+                    Monitored application performance and implemented fixes to
+                    address vulnerabilities and bottlenecks.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /timeline-block -->
 
-   		<div class="col-twelve resume-header">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
 
-   			<h2>Work Experience</h2>
+              <div class="timeline-header">
+                <h3>Developer</h3>
+                <p>June 2015 - Augest 2017</p>
+              </div>
 
-   		</div> <!-- /resume-header -->
+              <div class="timeline-content">
+                <h4>Great Start</h4>
+                <ul>
+                  <li>
+                    Developed web applications for various industries, including
+                    e-commerce and education, leveraging PHP and SQL.
+                  </li>
+                  <li>
+                    Provided end-to-end development solutions, from requirement
+                    gathering to deployment.
+                  </li>
+                  <li>
+                    Optimized application functionality and user experience
+                    through effective front-end and back-end integration.
+                  </li>
+                  <li>
+                    Managed hosting and domain setup for clients, ensuring
+                    reliable application availability.
+                  </li>
+                  <li>
+                    Delivered consistent technical support to clients,
+                    addressing their post-deployment concerns and improvements.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
 
-   		<div class="col-twelve">
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Education</h2>
+        </div>
+        <!-- /resume-header -->
 
-   			<div class="timeline-wrap">
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
 
-   				<div class="timeline-block">
+              <div class="timeline-header">
+                <h3>Master Degree</h3>
+                <p>September 2012 - June 2015</p>
+              </div>
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
+              <div class="timeline-content">
+                <h4>Master of Computer Applications</h4>
+                <p>
+                  Three years learn lot, tears lot, hard lot.. And awesome
+                  experience for me. Three years make me strong in code wise.
+                  And make me as a Professional. Thank you all.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
 
-	   				<div class="timeline-header">
-	   					<h3>Application Developer</h3>
-	   					<p>Septemper 2017 - July 2018</p>
-	   				</div>
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
 
-	   				<div class="timeline-content">
-	   					<h4>Built Strong</h4>
-	   					<p>
-							<ul>
-								<li>• Built and maintained business applications using modern web technologies like JavaScript, Python, and SQL.</li>
-								<li>• Led the migration of legacy systems to cloud infrastructure, enhancing system performance and scalability.</li>
-								<li>• Collaborated with clients to gather requirements and deliver tailored software solutions on time.</li>
-								<li>• Integrated third-party APIs to extend application functionalities, ensuring seamless interoperability.</li>
-								<li>• Monitored application performance and implemented fixes to address vulnerabilities and bottlenecks.</li>
-							</ul>
-						</p>
-	   				</div>
+              <div class="timeline-header">
+                <h3>Bachelor Degree</h3>
+                <p>April 2009 - April 2015</p>
+              </div>
 
-	   			</div> <!-- /timeline-block -->
+              <div class="timeline-content">
+                <h4>Computer Science</h4>
+                <p>
+                  Actaully, When I'm completed my school life and I decided to
+                  start my career in IT Industry. Because at that time I am very
+                  crazy and interest in computers. And aswell I learned lot.
+                  Thank you all.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
+    </section>
+    <!-- /features -->
 
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Developer</h3>
-	   					<p>June 2015 - Augest 2017</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Great Start</h4>
-	   					<p>I'm Started my career as a Developer and developed Mobile web apps and web applications using Ionic and Cordova but the base is JavaScript and AngularJS. and my Responsibilities are develop the Mobile web applications (Hybrid Mobile Apps), Troubleshoot the any server or application performance and security issue, Testing the applications in performance and security wise,Troubleshooting the performance and security issues and implement the new tools to improve the SDLC. I have worked in more the 5 Hybrid Mobile Apps and also worked on more the 6 Web Projects.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-   	
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Master Degree</h3>
-	   					<p>September 2012 - June 2015</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Master of Computer Applications</h4>
-	   					<p>Three years learn lot, tears lot, hard lot.. And awesome experience for me. Three years make me strong in code wise. And make me as a Professional. Thank you all.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Bachelor Degree</h3>
-	   					<p>April 2009 - April 2015</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Computer Science</h4>
-	   					<p>Actaully, When I'm completed my school life and I decided to start my career in IT Industry. Because at that time I am very crazy and interest in computers. And aswell I learned lot. Thank you all.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
+    <!-- Portfolio Section
    ================================================== -->
-	<section id="portfolio">
+    <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Portfolio</h5>
+          <h1>Check Out Some of My Works.</h1>
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+          <p class="lead">
+            Here it is find the some of the project I have worked.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro-->
 
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
+      <div class="row portfolio-content">
+        <div class="col-twelve">
+          <!-- portfolio-wrapper -->
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/liberty.jpg" alt="Liberty" />
+                <a href="#modal-01" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">SAAS</h3>
+                      <span class="folio-types"> Security As A Service </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-   			<p class="lead">Here it is find the some of the project I have worked.</p>
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug" />
+                <a href="#modal-02" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">DRaaS</h3>
+                      <span class="folio-types">
+                        Disaster Recovery As A Service
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/clouds.jpg" alt="Clouds" />
+                <a href="#modal-03" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Let's Go Tweetz</h3>
+                      <span class="folio-types"> Secure ChatBox </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-   	<div class="row portfolio-content">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/beetle.jpg" alt="Beetle" />
+                <a href="#modal-04" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Mobile Web Application</h3>
+                      <span class="folio-types"> Learn Node Offline </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-   		<div class="col-twelve">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse" />
+                <a href="#modal-05" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Single Page Web Application</h3>
+                      <span class="folio-types"> Manual DUB App </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/salad.jpg" alt="Salad" />
+                <a href="#modal-06" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Libraries</h3>
+                      <span class="folio-types">
+                        Ionic / Python Libraries
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
 
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">SAAS</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Security As A Service
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
-
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">DRaaS</h3>	     			
-	     					    	<span class="folio-types">
-	     					       	  Disaster Recovery As A Service
-	     					      	</span>		     		
-	     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Let's Go Tweetz</h3>	     
-		     					    	<span class="folio-types">
-		     					       	Secure ChatBox  
-		     					      	</span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Mobile Web Application</h3>	
-		     					    	<span class="folio-types">
-		     					       	  Learn Node Offline
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->     
-
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Single Page Web Application</h3>
-		     					    	<span class="folio-types">
-		     					       	  Manual DUB App
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Libraries</h3>	     			 
-		     					    	<span class="folio-types">
-		     					       	  Ionic / Python Libraries
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
-
-	            <!-- modal popups - begin
+            <!-- modal popups - begin
 	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+              </div>
 
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
-				     	</div>      	
+              <div class="description-box">
+                <h4>SAAS - Security As A Service</h4>
+                <p>
+                  SAAS is the Security tool used to find the vulnerability in
+                  Web application, Mobile Apps and Source Code to prevent
+                  security issues before deployment. We developed using some
+                  third party tool support. And my contribution is lead the
+                  product and team, Technical support.
+                </p>
+                <p>
+                  <b>Frontend:</b> HTML, CSS, jQuery | Framework: Django Web
+                  Framework
+                </p>
+                <p>
+                  <b>Backend:</b> Python, Node JS, Shell Program | Tools:
+                  Github, Jenkins
+                </p>
 
-					   <div class="description-box">
-					      <h4>SAAS - Security As A Service</h4>		      
-					      <p>SAAS is the Security tool used to find the vulnerability in Web application, Mobile Apps and Source Code to prevent security issues before deployment. We developed using some third party tool support. And my contribution is lead the product and team, Technical support.</p>
-					      <p><b>Frontend:</b> HTML, CSS, jQuery | Framework: Django Web Framework</p>
-					      <p><b>Backend:</b> Python, Node JS, Shell Program | Tools: Github, Jenkins</p>
+                <div class="categories">Web App</div>
+              </div>
 
-					      <div class="categories">Web App</div>			               
-					   </div>
+              <div class="link-box">
+                <!-- <a target="_blank" href="http://saaas.nexttechnosolutions.com">Details</a> -->
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-01 -->
 
-			         <div class="link-box">
-			            <!-- <a target="_blank" href="http://saaas.nexttechnosolutions.com">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+            <div id="modal-02" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+              </div>
 
-				   </div> <!-- /modal-01 -->
+              <div class="description-box">
+                <h4>DRaaS – Disaster Recovery As a Service</h4>
+                <p>
+                  DRaaS is used to backup and restore enterprise data. In this
+                  product my contribution is lead the product and team.
+                  Responsible to backup the Virtual machine and In this product
+                  we have backup the VM, Database and data storages. We move the
+                  back to over the region, nearby location and remote servers.
+                </p>
+                <p>
+                  <b>Frontend:</b> HTML, CSS, jQuery | Framework: Django Web
+                  Framework, Angular
+                </p>
+                <p>
+                  <b>Backend:</b> Python, Node JS, Shell Program | Tools:
+                  Github, Jenkins
+                </p>
+                <div class="categories">Web Application</div>
+              </div>
 
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+              <div class="link-box">
+                <!-- <a target="_blank" href="http://draas.nexttechnosolutions.com">Details</a> -->
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-02 -->
 
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
-				     	</div>      	
+            <div id="modal-03" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+              </div>
 
-					   <div class="description-box">
-					      <h4>DRaaS – Disaster Recovery As a Service</h4>		      
-					      <p>DRaaS is used to backup and restore enterprise data. In this product my contribution is lead the product and team. Responsible to backup the Virtual machine and In this product we have backup the VM, Database and data storages. We move the back to over the region, nearby location and remote servers.</p><p><b>Frontend:</b> HTML, CSS, jQuery | Framework: Django Web Framework, Angular</p><p><b>Backend:</b> Python, Node JS, Shell Program | Tools: Github, Jenkins</p>
+              <div class="description-box">
+                <h4>Let's Go Tweertz</h4>
+                <p>
+                  Secure Chartbox for private and group there is no database
+                  backend so you can chat whatever you want independently.
+                </p>
+                <p><b>Frontend: </b>HTML, CSS, JQuery</p>
+                <p><b>Backend: </b>Node JS, Socket.io, Express JS</p>
 
-					      <div class="categories">Web Application</div>			               
-					   </div>
+                <div class="categories">Web Application</div>
+              </div>
 
-			         <div class="link-box">
-			            <!-- <a target="_blank" href="http://draas.nexttechnosolutions.com">Details</a> -->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+              <div class="link-box">
+                <a target="_blank" href="http://letsgotweetz.herokuapp.com"
+                  >Details</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-03 -->
 
-				   </div> <!-- /modal-02 -->
+            <div id="modal-04" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+              </div>
 
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+              <div class="description-box">
+                <h4>Learn Node Offline</h4>
+                <p>
+                  This app is your pocket book to learn Node js , Once installed
+                  you can access this app without net connection , this is a
+                  offline app. We have set of features to improve your learning
+                  process.
+                </p>
+                <p>
+                  <b>Technologies:</b>Ionic(AngularJS), Cordova, JavaScript,
+                  HTML, CSS
+                </p>
 
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
-				     	</div>      	
+                <div class="categories">Mobile Application</div>
+              </div>
 
-					   <div class="description-box">
-					      <h4>Let's Go Tweertz</h4>		      
-					      <p>Secure Chartbox for private and group there is no database backend so you can chat whatever you want independently.</p><p><b>Frontend: </b>HTML, CSS, JQuery</p><p><b>Backend: </b>Node JS, Socket.io, Express JS</p>
+              <div class="link-box">
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.jpcreation.learnNJ"
+                  >Details</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-04 -->
 
-					      <div class="categories">Web Application</div>			               
-					   </div>
+            <div id="modal-05" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+              </div>
 
-			         <div class="link-box">
-			            <a target="_blank" href="http://letsgotweetz.herokuapp.com">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+              <div class="description-box">
+                <h4>Manual DUB SPA Application</h4>
+                <p>
+                  Now a days SPA Applications are very popular like Gmail. And
+                  easy to create with a help of awesome frontend frameworks
+                </p>
+                <p><b>Technologies:</b> AngularJS, HTML, CSS, JQuery</p>
+                <div class="categories">Web Application</div>
+              </div>
 
-				   </div> <!-- /modal-03 -->
+              <div class="link-box">
+                <a target="_blank" href="https://md6-ngwebapp.herokuapp.com"
+                  >Details</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-05 -->
 
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+            <div id="modal-06" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-salad.jpg" alt="" />
+              </div>
 
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-				     	</div>      	
+              <div class="description-box">
+                <h4>Libraries</h4>
+                <p>
+                  I have write some of ionic based libraries and planed to
+                  develope python libraries and shared in GitHub so keep in
+                  touch
+                </p>
+                <div class="categories">Programming Libraries</div>
+              </div>
 
-					   <div class="description-box">
-					      <h4>Learn Node Offline</h4>		      
-					      <p>This app is your pocket book to learn Node js , Once installed you can access this app without net connection , this is a offline app. We have set of features to improve your learning process.</p><p><b>Technologies:</b>Ionic(AngularJS), Cordova, JavaScript, HTML, CSS</p>
+              <div class="link-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/PraveenJP?tab=repositories"
+                  >Details</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-06 -->
 
-					      <div class="categories">Mobile Application</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jpcreation.learnNJ">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-04 -->
-
-				   <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Manual DUB SPA Application</h4>		      
-					      <p>Now a days SPA Applications are very popular like Gmail. And easy to create with a help of awesome frontend frameworks</p><p><b>Technologies:</b> AngularJS, HTML, CSS, JQuery</p>
-					      <div class="categories">Web Application</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a target="_blank" href="https://md6-ngwebapp.herokuapp.com">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-05 -->
-
-				   <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Libraries</h4>		      
-					      <p>I have write some of ionic based libraries and planed to develope python libraries and shared in GitHub so keep in touch</p>
-					      <div class="categories">Programming Libraries</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a target="_blank" href="https://github.com/PraveenJP?tab=repositories">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-06 -->
-
-
-				   <!-- modal popups - end
+            <!-- modal popups - end
 	            ============================================================= -->
+          </div>
+          <!-- /portfolio-wrapper -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /portfolio-content -->
+    </section>
+    <!-- /portfolio -->
 
-	         </div> <!-- /portfolio-wrapper --> 
-
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
-
-
-   <!-- footer
+    <!-- footer
    ================================================== -->
-   <br/>
-   <footer>
-     	<div class="row">
-     		<div align="center">
-     			<h5>Happy Coding..<i class="fa fa-heart"></i></h5>
-     		</div>
-     		<div class="col-six tab-full pull-right social">
+    <br />
+    <footer>
+      <div class="row">
+        <div align="center">
+          <h5>Happy Coding..<i class="fa fa-heart"></i></h5>
+        </div>
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/RoadizPraveen"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/PraveenJP"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="http://jpcreation4u.blogspot.in/"
+                ><i class="fa fa-globe"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/user/praveen2602"
+                ><i class="fa fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="http://in.linkedin.com/in/roadizpraveen"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
 
-     			<ul class="footer-social">        
-			     <li><a target="_blank" href="https://www.facebook.com/RoadizPraveen"><i class="fa fa-facebook"></i></a></li>
-		         <li><a target="_blank" href="https://github.com/PraveenJP"><i class="fa fa-github"></i></a></li>
-		         <li><a target="_blank" href="http://jpcreation4u.blogspot.in/"><i class="fa fa-globe"></i></a></li>
-		         <li><a target="_blank" href="https://www.youtube.com/user/praveen2602"><i class="fa fa-youtube"></i></a></li>
-		         <li><a target="_blank" href="http://in.linkedin.com/in/roadizpraveen"><i class="fa fa-linkedin"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
+        <div class="col-six tab-full">
+          <div class="copyright">
+            <span>© Copyright Praveen J 2017.</span>
+          </div>
+        </div>
 
-      		<div class="col-six tab-full">
-	      		<div class="copyright">
-		        	<span>© Copyright Praveen J 2017.</span> 		        	
-		         </div>		                  
-	      	</div>
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
 
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
 
-      	</div> <!-- /row -->     	
-   </footer>  
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
-
-</body>
-
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
